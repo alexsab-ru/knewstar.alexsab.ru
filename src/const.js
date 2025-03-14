@@ -7,9 +7,9 @@ export const LEGAL_ENTITY = 'ООО «ПАРТНЕР»';
 // ИНН
 export const LEGAL_INN = '5609202210';
 // Город
-export const LEGAL_CITY = 'г. Оренбург';
+export const LEGAL_CITY = 'г. Пенза';
 // где? в Городе
-export const LEGAL_CITY_WHERE = 'Оренбурге';
+export const LEGAL_CITY_WHERE = 'Пензе';
 // Описание сайта по умолчанию
 export const SITE_DESCR = 'Официальный дилерский центр';
 // Телефон по умолчанию
@@ -29,7 +29,7 @@ export const LINK_WIDGET_ORGNIZATION = '';
 import modelsData from '@/data/models.json';
 const models = modelsData.filter(model => model.show);
 export const LINKS_MENU = [
-	{url: 'cars/', name: 'Авто в наличии'},
+	// {url: 'cars/', name: 'Авто в наличии'},
 	// {url: 'catalog/', name: 'Каталог'},
 	// {url: 'used_cars/', name: 'Авто с пробегом'},
 	{ 
@@ -39,7 +39,7 @@ export const LINKS_MENU = [
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	{url: 'special-offers/', name: 'Спецпредложения'},
-	{url: 'news/', name: 'Новости'},
+	// {url: 'news/', name: 'Новости'},
 	{url: 'test-drive/', name: 'Запись на тест-драйв'},
 	{url: 'service-request/', name: 'Запись на сервис'},
 	{url: '#services', name: 'Услуги'},
@@ -48,7 +48,7 @@ export const LINKS_MENU = [
 // Коллекции
 export const COLLECTIONS = [
 	{name: 'special-offers', title: 'Спецпредложения'},
-	{name: 'news', title: 'Новости'},
+	// {name: 'news', title: 'Новости'},
 ];
 // Текстовая строка над хедером
 export const HEADER_TOP_LINE = '';
